@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Enhance Your Calm</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_reset">Reset</string>
+    <string name="time_format" formatted="false">%02d:%02d</string>
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+    <string name="title_select_interval">Select an interval</string>
+    <string name="message_press_to_stop">Press to stop</string>
+    <string name="message_press_to_reset">Press to reset</string>
+    <string name="message_press_to_start">Press to start</string>
+    <string name="title_abandon_timer">Abandon the current timer?</string>
+    <string name="toast_alarm_expired">Alarm expired.</string>
+    <string name="label_X_minutes">%d minutes</string>
+
+</resources>
