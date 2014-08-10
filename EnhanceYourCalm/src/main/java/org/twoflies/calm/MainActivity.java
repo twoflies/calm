@@ -7,6 +7,7 @@ import android.content.SharedPreferences;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -85,6 +86,14 @@ public class MainActivity extends Activity implements View.OnClickListener, View
             this.updateProgressView(this.timer.getRemainingInterval());
             this.updateTimerView(this.timer.getRemainingInterval());
         }
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+        // stop the timer so that it is in a consistent state on resume
+        this.stopTimer();
     }
 
     @Override
